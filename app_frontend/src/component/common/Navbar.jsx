@@ -5,7 +5,7 @@ function Navbar() {
     <div className='flex gap-100 justify-center text-green-300 bg-gray-800 p-5'>
         
         {/* Name section */}
-        <div>
+        <div className='text-2xl'>
             <h1>~/archit-kumar</h1>
         </div>
 
