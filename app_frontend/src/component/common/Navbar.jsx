@@ -1,6 +1,4 @@
-import React from 'react'
-
-function Navbar() {
+function Navbar({setCurrentPage}) {
   return (
     <div className='flex gap-100 justify-center text-green-300 bg-gray-800 p-5'>
         
@@ -12,9 +10,9 @@ function Navbar() {
         {/* Link section */}
         <div className=''>
             <ul className='flex gap-8'>
-                <li>home</li>
-                <li>about</li>
-                <li>skills</li>
+                <button onClick={() => setCurrentPage('home')}>home</button>
+                <button onClick={() => setCurrentPage('about')}>about</button>
+                <button onClick={() => setCurrentPage('skills')}>skills</button>
                 <li>projects</li>
                 <li>contact</li>
             </ul>
