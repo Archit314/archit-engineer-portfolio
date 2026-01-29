@@ -51,6 +51,8 @@ function About() {
                     <div className='p-6'>archit@dev:~/about$ </div>
                 </div>
             }
+
+            title='📖 about.md'
         />
     )
 }
