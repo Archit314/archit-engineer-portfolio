@@ -7,7 +7,6 @@ function About() {
             children={
 
                 <div>
-                    <div className='p-6'>archit@dev:~/about$ cat story.md</div>
                     <div className='flex flex-col gap-y-6 p-6'>
                         <div className='flex flex-col border-l-4 border-emerald-500 bg-emerald-950 gap-y-3 rounded-2xl p-4'>
                             <h1 className='text-3xl font-bold'>
@@ -48,11 +47,16 @@ function About() {
                             </div>
                         </div>
                     </div>
-                    <div className='p-6'>archit@dev:~/about$ </div>
                 </div>
             }
 
             title='📖 about.md'
+
+            page='/about'
+
+            header=' cat story.md'
+
+            cursorText='/about'
         />
     )
 }

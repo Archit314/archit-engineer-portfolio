@@ -5,7 +5,6 @@ function Skills() {
     <Terminal
         children={
             <div className="flex flex-col gap-9 p-6">
-                <h1>archit@dev:~/skills$ cat skills.md</h1>
                 <div className="grid grid-cols-2 gap-4">
                     <div className="flex flex-col gap-4 border border-gray-600 rounded-2xl p-3">
                         <h1 className="text-base font-bold text-green-300">💻 Languages</h1>
@@ -46,9 +45,16 @@ function Skills() {
                         </div>
                     </div>
                 </div>
-                <h1>archit@dev:~/skills$ </h1>
             </div>
         }
+
+        title='🛠️ skills.md'
+
+        page='/skills'
+
+        header=' cat skills.md'
+
+        cursorText='/skills'
     />
   )
 }

@@ -10,8 +10,6 @@ function Home() {
                     {/* Intro section */}
                     <div className='pb-6 pt-6 space-y-6'>
 
-                        <h1>archit@dev:~$ cat intro.txt</h1>
-
                         <div className='border-l-4 border-indigo-500 px-6 space-y-6'>
                             <h1 className='text-4xl font-bold'>Hi, I'm Archit Kumar 👋</h1>
 
@@ -59,17 +57,16 @@ function Home() {
                             </div>
                         </div>
                     </div>
-
-                    {/* cursor section */}
-                    <div className='pb-6 pt-6 space-y-6'>
-
-                        <h1>archit@dev:~$ </h1>
-                    </div>
-
                 </div>
             }
 
             title='⚡ welcome.sh'
+
+            page=''
+
+            header=' cat intro.txt'
+
+            cursorText=''
         />
     )
 }
