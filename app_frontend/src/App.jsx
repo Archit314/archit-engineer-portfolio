@@ -24,10 +24,13 @@ function App() {
   }
 
   return (
-    <div className='bg-[linear-gradient(135deg,#0f0f1a_0%,#1a1a2e_50%,#16213e_100%)] min-h-screen'>
+    <div className="min-h-screen flex flex-col bg-[linear-gradient(135deg,#0f0f1a_0%,#1a1a2e_50%,#16213e_100%)]">
       <Navbar setCurrentPage={setCurrentPage}/>
-      <main>
-        {loadPage()}
+
+      <main className="flex-1">
+        <div className="w-full max-w-5xl mx-auto px-4">
+          {loadPage()}
+        </div>
       </main>
       <Footer/>
     </div>

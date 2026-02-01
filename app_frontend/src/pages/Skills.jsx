@@ -7,26 +7,26 @@ function Skills() {
             <div className="flex flex-col gap-9 p-6">
                 <div className="grid grid-cols-2 gap-4">
                     <div className="flex flex-col gap-4 border border-gray-600 rounded-2xl p-3">
-                        <h1 className="text-base font-bold text-green-300">💻 Languages</h1>
+                        <h1 className="text-xl font-bold text-green-300">💻 Languages</h1>
 
-                        <div className="grid grid-cols-5 gap-6">
+                        <div className="grid grid-cols-4 gap-6">
                             <div className="border border-gray-600 rounded-xl p-1 w-max px-2">JavaScript</div>
                             <div className="border border-gray-600 rounded-xl p-1 w-max px-2">TypeScript</div>
                             <div className="border border-gray-600 rounded-xl p-1 w-max px-2">Python</div>
                         </div>
                     </div>
                     <div className="flex flex-col gap-4 border border-gray-600 rounded-2xl p-3">
-                        <h1 className="text-base font-bold text-purple-400">🕸️ Backend Framework</h1>
+                        <h1 className="text-xl font-bold text-purple-400">🕸️ Backend Framework</h1>
 
-                        <div className="grid grid-cols-5">
+                        <div className="grid grid-cols-4 gap-6">
                             <div className="border border-gray-600 rounded-xl p-1 w-max px-2">Express.js</div>
                             <div className="border border-gray-600 rounded-xl p-1 w-max px-2">Adonis.js</div>
                         </div>
                     </div>
                     <div className="flex flex-col gap-4 border border-gray-600 rounded-2xl p-3">
-                        <h1 className="text-base font-bold text-cyan-400">🎨 Frontend Frameword & Libraries</h1>
+                        <h1 className="text-xl font-bold text-cyan-400">🎨 Frontend Frameword & Libraries</h1>
 
-                        <div className="grid grid-cols-5">
+                        <div className="grid grid-cols-4 gap-6">
                             <div className="border border-gray-600 rounded-xl p-1 w-max px-2">React.js</div>
                             <div className="border border-gray-600 rounded-xl p-1 w-max px-2">Daisy UI</div>
                             <div className="border border-gray-600 rounded-xl p-1 w-max px-2">TailwindCss</div>
@@ -34,9 +34,9 @@ function Skills() {
                         </div>
                     </div>
                     <div className="flex flex-col gap-4 border border-gray-600 rounded-2xl p-3">
-                        <h1 className="text-base font-bold text-orange-400">☁️ Cloud & DevOps</h1>
+                        <h1 className="text-xl font-bold text-orange-400">☁️ Cloud & DevOps</h1>
 
-                        <div className="grid grid-cols-5">
+                        <div className="grid grid-cols-4 gap-6">
                             <div className="border border-gray-600 rounded-xl p-1 w-max px-2">Forge</div>
                             <div className="border border-gray-600 rounded-xl p-1 w-max px-2">AWS</div>
                             <div className="border border-gray-600 rounded-xl p-1 w-max px-2">Render</div>
