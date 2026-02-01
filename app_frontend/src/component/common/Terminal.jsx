@@ -17,15 +17,11 @@ function Terminal({children, title, page, header}) {
 
                 {/* Body */}
                 <div className="bg-gray-800 text-gray-300 p-6">
-                    <h1 className="pb-4 text-green-300">
-                    archit@dev:~{page}$ {header}
-                    </h1>
+                    <h1 className="p-4 text-green-300">archit<span className="text-gray-300">@</span><span className="text-purple-400">dev:</span><span className="text-sky-300">~{page}</span><span className="text-green-300">$</span><span className="text-gray-200">{header}</span></h1>
 
                     {children}
 
-                    <h1 className="pt-4 text-green-300">
-                    archit@dev:~{page}$
-                    </h1>
+                    <h1 className="p-4 text-green-300">archit<span className="text-gray-300">@</span><span className="text-purple-400">dev:</span><span className="text-sky-300">~{page}</span><span className="text-green-300">$</span></h1>
                 </div>
             </div>
         </div>

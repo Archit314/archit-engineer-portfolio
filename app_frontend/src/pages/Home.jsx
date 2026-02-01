@@ -12,7 +12,7 @@ function Home() {
 
                         <div className='border-l-4 border-indigo-500 px-6 space-y-6'>
                             <div className='text-4xl font-bold'>
-                                <span className="bg-linear-to-r">Hi, I'm</span>
+                                <span>Hi, I'm</span>
                                 <span className="bg-linear-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text"> Archit Kumar </span>
                                 <span>👋</span>
                             </div>
