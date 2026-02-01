@@ -10,9 +10,12 @@ function Terminal({children, title, page, header}) {
                     <div className="bg-red-500 w-3 h-3 rounded-full" />
                     <div className="bg-yellow-500 w-3 h-3 rounded-full" />
                     <div className="bg-green-500 w-3 h-3 rounded-full" />
-                    <span className="text-gray-300">{title}</span>
+                        <span className="text-gray-300">{title}</span>
                     </div>
-                    <span className="text-gray-300">bash</span>
+                    <div className='flex gap-2 items-center'>
+                        <div className='bg-green-500 rounded-full w-3 h-3'></div>
+                        <h1 className='text-gray-300'>bash</h1>
+                    </div>
                 </div>
 
                 {/* Body */}
