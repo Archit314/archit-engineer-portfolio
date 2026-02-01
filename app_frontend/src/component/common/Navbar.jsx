@@ -25,7 +25,7 @@ function Navbar({setCurrentPage}) {
                 <button className={navLink} onClick={() => setCurrentPage('home')}>home</button>
                 <button className={navLink} onClick={() => setCurrentPage('about')}>about</button>
                 <button className={navLink} onClick={() => setCurrentPage('skills')}>skills</button>
-                <button className={navLink}>projects</button>
+                <button className={navLink} onClick={() => setCurrentPage('projects')}>projects</button>
                 <button className={navLink}>contact</button>
             </ul>
         </div>

@@ -1,4 +1,3 @@
-import React from 'react'
 import Terminal from '../component/common/Terminal'
 
 function About() {

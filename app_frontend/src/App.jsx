@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import Footer from './component/common/Footer'
 import Navbar from './component/common/Navbar'
-import Terminal from './component/common/Terminal'
 import Home from './pages/Home'
 import About from './pages/About'
 import Skills from './pages/Skills'
+import Projects from './pages/Projects'
 
 function App() {
 
@@ -20,6 +20,9 @@ function App() {
     }
     else if(currentPage === 'skills'){
       return <Skills/>
+    }
+    else if(currentPage === 'projects'){
+      return <Projects/>
     }
   }
 
