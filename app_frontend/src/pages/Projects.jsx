@@ -33,7 +33,7 @@ const projects = [
     description:
       "Personal developer portfolio showcasing projects, skills, and experience.",
     tech: ["React.Js", "Tailwind CSS", "Vite"],
-    logo: "/vite.svg",
+    logo: "https://static.vecteezy.com/system/resources/previews/004/637/540/non_2x/portfolio-icon-in-linear-style-vector.jpg",
   },
   {
     id: 3,
@@ -101,7 +101,10 @@ function Skills() {
 
               <div>
                 <h1 className="text-gray-200">{project.title}</h1>
-                <h1 className="text-green-300">{project.status}</h1>
+                <div className='flex gap-2 items-center'>
+                    <div className='bg-green-500 rounded-full w-3 h-3'></div>
+                    <h1 className='text-gray-300'>{project.status}</h1>
+                </div>
               </div>
             </div>
 
