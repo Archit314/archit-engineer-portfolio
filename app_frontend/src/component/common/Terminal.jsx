@@ -1,6 +1,6 @@
 function Terminal({children, title, page, header}) {
    return (
-    <div className='flex items-center justify-center min-h-screen px-4 shadow-2xl overflow-hidden mt-19'>
+    <div className='flex items-center justify-center min-h-screen px-4 shadow-2xl overflow-hidden mt-19 bg-linear-to-br from-gray-900 via-gray-800 to-gray-900'>
         <div className="p-px rounded-xl bg-linear-to-r from-green-300 via-purple-500 to-pink-500">
 
             <div className='w-full max-w-5xl rounded-xl overflow-hidden'>
@@ -22,9 +22,9 @@ function Terminal({children, title, page, header}) {
 
                 {/* Card Body */}
                 <div className='text-gray-300 bg-gray-800 p-4'>
-                    <h1 className="p-6 text-green-300">archit<span className="text-gray-300">@</span><span className="text-purple-400">dev:</span><span className="text-sky-300">~{page}</span><span className="text-green-300">$</span><span className="text-gray-200">{header}</span></h1>
+                    <h1 className="p-4 text-green-300">archit<span className="text-gray-300">@</span><span className="text-purple-400">dev:</span><span className="text-sky-300">~{page}</span><span className="text-green-300">$</span><span className="text-gray-200">{header}</span></h1>
                     {children}
-                    <h1 className="p-6 text-green-300">archit<span className="text-gray-300">@</span><span className="text-purple-400">dev:</span><span className="text-sky-300">~{page}</span><span className="text-green-300">$</span></h1>
+                    <h1 className="p-4 text-green-300">archit<span className="text-gray-300">@</span><span className="text-purple-400">dev:</span><span className="text-sky-300">~{page}</span><span className="text-green-300">$</span></h1>
                 </div>
             </div>
         </div>

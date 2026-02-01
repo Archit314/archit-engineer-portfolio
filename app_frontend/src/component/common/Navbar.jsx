@@ -1,6 +1,6 @@
 function Navbar({setCurrentPage}) {
   return (
-    <div className='flex gap-100 justify-center text-green-300 bg-gray-800 p-5'>
+    <div className='flex gap-100 justify-center text-green-300 bg-gray-900/70 p-5'>
         
         {/* Name section */}
         <div className='text-2xl'>
